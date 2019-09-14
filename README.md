@@ -7,6 +7,7 @@
 - Accessing Elixir `Map` can be done with `Dot notation` or `Pattern matching`
 - Different between `Map` and `Keyword list`, `Keyword list` can have multiple same key
 - Elixir `Struct` can only holds primitive value
+- Elixir `List` did not give index, need to put index, something like `Enum.with_index`
 
 *Using `Pattern Matching` with `Maps`*
 ```
