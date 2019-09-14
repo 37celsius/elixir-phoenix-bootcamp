@@ -6,6 +6,7 @@
 - Elixir `Maps` is similar to `object` in JavaScript: colors = %{primary: "red"}
 - Accessing Elixir `Map` can be done with `Dot notation` or `Pattern matching`
 - Different between `Map` and `Keyword list`, `Keyword list` can have multiple same key
+- Elixir `Struct` can only holds primitive value
 
 *Using `Pattern Matching` with `Maps`*
 ```
