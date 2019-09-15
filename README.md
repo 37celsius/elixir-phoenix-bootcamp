@@ -43,3 +43,7 @@ secondary_color # "blue"
   |> Keyword list = [primary: "red", primary: "blue"] # primary: "red", primary: "blue"
 
 ```
+
+#### What is Phoenix?
+- Purpose is to serving up HTML, JSON and Web Sockets for Users
+- It's the middle from Database to HTML, JSON and Web Sockets
