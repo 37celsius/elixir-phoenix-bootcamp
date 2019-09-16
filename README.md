@@ -48,7 +48,8 @@ secondary_color # "blue"
 - Purpose is to serving up HTML, JSON and Web Sockets for Users
 - It's the middle from Database to HTML, JSON and Web Sockets
 - Phoenix doesn't care about what type of DB you are using, as long as it is supported, you can use it
-- Phoneix follow `RESTful` Convention
+- Phoenix follow `RESTful` Convention
+- Phoenix comes in with a `Template Syntax` one of them is for form, ie. in topic/new.html.eex `<% form_for @changeset, topic_path(@conn, :create), fn f -> %><% end %>` this is just an elixir syntax `form_for(@changeset, topic_path(@conn, :create), fn f -> end)` @changeset is a variable from controller
 
 #### How `HTTP Request` works inside Phoenix
 ---
