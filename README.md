@@ -47,3 +47,8 @@ secondary_color # "blue"
 #### What is Phoenix?
 - Purpose is to serving up HTML, JSON and Web Sockets for Users
 - It's the middle from Database to HTML, JSON and Web Sockets
+- Phoenix doesn't care about what type of DB you are using, as long as it is supported, you can use it
+
+#### How `HTTP Request` works inside Phoenix
+---
+request > router > controller (model > database > controller) > view (template) > response
