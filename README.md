@@ -48,7 +48,19 @@ secondary_color # "blue"
 - Purpose is to serving up HTML, JSON and Web Sockets for Users
 - It's the middle from Database to HTML, JSON and Web Sockets
 - Phoenix doesn't care about what type of DB you are using, as long as it is supported, you can use it
+- Phoneix follow `RESTful` Convention
 
 #### How `HTTP Request` works inside Phoenix
 ---
-request > router > controller (model > database > controller) > view (template) > response
+request > router > controller (model > database > controller) > view (template > view) > response
+
+#### REST Convention
+
+| Intent        | Action           | Controller Function Name  |
+| ------------- |:-------------:| :-----:|
+| See the form to create a new topic | `GET` "/topics/new" | new |
+| Submit the form to create a topic | `POST` "/topics" | create |
+| Get a list of all topics | `GET` "/topics" | index |
+| Delete a topic with ID of 12 | `DELETE` "/topics/12" | delete |
+| See the form to update an existing topic with ID of 12 | `GET` "/topics/12/edit" | edit |
+| Submit the form to update a topic with ID 12 | `PUT` "/topics/12" | update |
