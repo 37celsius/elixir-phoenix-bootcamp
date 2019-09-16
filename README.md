@@ -1,6 +1,6 @@
 ## Notes
 - Elixir is functional programming
-- All data structure in Elixir if `immutable`
+- All data structure in Elixir are `immutable`
 - We do not need to declare var/cons/let to make variable
 - Elixir heavily use `Pattern matching`
 - Elixir `Maps` is similar to `object` in JavaScript: colors = %{primary: "red"}
