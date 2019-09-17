@@ -8,6 +8,7 @@
 - Different between `Map` and `Keyword list`, `Keyword list` can have multiple same key
 - Elixir `Struct` can only holds primitive value
 - Elixir `List` did not give index, need to put index, something like `Enum.with_index`
+- `.ex` meant to be compile and run, while `.exs` intepreted as script, most of the time we us `.ex`
 
 *Using `Pattern Matching` with `Maps`*
 ```
