@@ -130,4 +130,4 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
-/discuss/config
+/discuss/config/
